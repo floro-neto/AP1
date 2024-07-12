@@ -1,0 +1,40 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/09/2023
+Var
+// Seção de Declarações das variáveis 
+m:vetor [1..6,1..6] de inteiro
+a:vetor [1..36] de inteiro
+b,i,c,f:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval ("digite o valor do numero que ira multiplicar:")
+leia (c)
+escreval
+para b de 1 ate 6 faca
+para i de 1 ate 6 faca
+leia (m[b,i])
+ m[b,i] <- m[b,i]*c
+ f <- f +1
+ a[f] <- m[b,i]
+fimpara
+fimpara
+para b de 1 ate 6 faca
+escreval
+para i de 1 ate 6 faca
+escreva (m[b,i])
+fimpara
+fimpara
+escreval
+escreval ("os valores no vetor a[36] sao:")
+para f de 1 ate 36 faca
+escreval (a[f])
+fimpara
+
+
+
+Fimalgoritmo

@@ -1,0 +1,46 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 10/09/2023
+Var
+// Seção de Declarações das variáveis 
+m:vetor [1..5,1..5] de logico
+b,i:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+m[1,1]<-verdadeiro
+m[2,1]<-verdadeiro
+m[3,1]<-falso
+m[4,1]<-falso
+m[1,2]<-verdadeiro
+m[2,2]<-falso
+m[3,2]<-verdadeiro
+m[4,2]<-falso
+para b de 1 ate 4 faca
+m[b,3] <-nao m[b,2]
+fimpara
+para b de 1 ate 4 faca
+se m[b,1] e m[b,2] = verdadeiro entao
+m[b,4] <- verdadeiro
+senao
+m[b,4] <- falso
+fimse
+fimpara
+para b de 1 ate 4 faca
+se m[b,1] e m[b,2] = verdadeiro entao
+m[b,5] <- verdadeiro
+senao
+m[b,5] <- falso
+fimse
+fimpara
+para b de 1 ate 4 faca
+escreval
+para i de 1 ate 5 faca
+escreva(m[b,i])
+fimpara
+fimpara
+
+Fimalgoritmo

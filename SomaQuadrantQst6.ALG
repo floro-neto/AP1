@@ -1,0 +1,57 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/09/2023
+Var
+// Seção de Declarações das variáveis 
+m:vetor [1..5,1..5] de inteiro
+b,c,d,i,f:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+para b de 1 ate 5 faca
+para i de 1 ate 5 faca
+leia (m[b,i])
+fimpara
+fimpara
+para b de 1 ate 5 faca
+d <- d + m[4,b]
+fimpara
+para i de 1 ate 5 faca
+c<- c + m[i,2]
+fimpara
+escreval
+escreval("a soma da linha 4 é:",d)
+escreval(" a soma da coluna 2 é:",c)
+escreval ("os numeros da diagonal principal são:")
+para b de 1 ate 5 faca
+para i de 1 ate 5 faca
+se b=i entao
+escreva (m[b,i])
+fimse
+fimpara
+fimpara
+escreval
+escreval ("os numeros da diagonal secundaria são:")
+para b de 1 ate 5 faca
+para i de 1 ate 5 faca
+se b+i=6 entao
+escreva (m[b,i])
+fimse
+fimpara
+fimpara
+para b de 1 ate 5 faca
+para i de 1 ate 5 faca
+f <- f + (m[b,i])
+fimpara
+fimpara
+escreval
+escreval ("A soma de todos os quadrantes são:")
+escreval (f)
+
+
+
+
+Fimalgoritmo

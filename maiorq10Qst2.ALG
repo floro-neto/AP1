@@ -1,0 +1,32 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/09/2023
+Var
+// Seção de Declarações das variáveis 
+m:vetor [1..4,1..4] de inteiro
+b,i,maior: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+maior <- 0
+para b de 1 ate 4 faca
+para i de 1 ate 4 faca
+leia (m[b,i])
+se (m[b,i]) > 10 entao
+maior <- maior + 1
+fimse
+fimpara
+fimpara
+para b de 1 ate 4 faca
+escreval
+para i de 1 ate 4 faca
+escreva (m[b,i])
+fimpara
+fimpara
+escreval
+escreval ("A quantidade de numeros maiores que 10 sao: ", maior)
+
+Fimalgoritmo
