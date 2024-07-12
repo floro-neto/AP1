@@ -1,0 +1,30 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/09/2023
+Var
+// Seção de Declarações das variáveis 
+m:vetor [1..4,1..4] de inteiro
+b,i,c:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+para b de 1 ate 4 faca
+para i de 1 ate 4 faca
+se b=i entao
+m[b,i] <- 1
+senao
+m[b,i] <- 0
+fimse
+fimpara
+fimpara
+para b de 1 ate 4 faca
+escreval
+para i de 1 ate 4 faca
+escreva (m[b,i])
+fimpara
+fimpara
+
+Fimalgoritmo
