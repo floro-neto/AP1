@@ -1,16 +1,16 @@
 Algoritmo "semnome"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 06/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 m:vetor [1..5,1..5] de inteiro
 b,c,d,i,f:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 para b de 1 ate 5 faca
 para i de 1 ate 5 faca
 leia (m[b,i])
@@ -23,9 +23,9 @@ para i de 1 ate 5 faca
 c<- c + m[i,2]
 fimpara
 escreval
-escreval("a soma da linha 4 é:",d)
-escreval(" a soma da coluna 2 é:",c)
-escreval ("os numeros da diagonal principal são:")
+escreval("a soma da linha 4 Ã©:",d)
+escreval(" a soma da coluna 2 Ã©:",c)
+escreval ("os numeros da diagonal principal sÃ£o:")
 para b de 1 ate 5 faca
 para i de 1 ate 5 faca
 se b=i entao
@@ -34,7 +34,7 @@ fimse
 fimpara
 fimpara
 escreval
-escreval ("os numeros da diagonal secundaria são:")
+escreval ("os numeros da diagonal secundaria sÃ£o:")
 para b de 1 ate 5 faca
 para i de 1 ate 5 faca
 se b+i=6 entao
@@ -48,7 +48,7 @@ f <- f + (m[b,i])
 fimpara
 fimpara
 escreval
-escreval ("A soma de todos os quadrantes são:")
+escreval ("A soma de todos os quadrantes sÃ£o:")
 escreval (f)
 
 
