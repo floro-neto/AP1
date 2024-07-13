@@ -2,9 +2,6 @@
 ## Some codes made in Visualg on Algorithms and Programming 1 class
 
 Aqui estão alguns codigos feitos usando Visualg:
-Sobre Visualg / About Visualg(A portuguese programing language):
-
-- [About Visualg](https://dicasdeprogramacao.com.br/download-visualg/)
 
 - [Code1](https://github.com/floro-neto/AP1/blob/main/Visualg1)
 - [Code2](https://github.com/floro-neto/AP1/blob/main/Visualg2)
@@ -16,5 +13,9 @@ Sobre Visualg / About Visualg(A portuguese programing language):
 - [Code8](https://github.com/floro-neto/AP1/blob/main/Visualg8)
 - [Code9](https://github.com/floro-neto/AP1/blob/main/Visualg9)
 - [Code10](https://github.com/floro-neto/AP1/blob/main/Visualg10)
+
+##Sobre Visualg / About Visualg(A portuguese programing language):
+
+- [About Visualg](https://dicasdeprogramacao.com.br/download-visualg/)
 
 
