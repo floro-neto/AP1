@@ -15,7 +15,7 @@ Aqui estão alguns codigos feitos usando Visualg:
 - [Code10](https://github.com/floro-neto/AP1/blob/main/Visualg10)
 
 Projeto final de AP1 / Final project done in AP1:
-About GIGGA: GIGGA is a simple software capable of storing student data, editing it and displaying it in a class with more than 50 students it is inspired by the website called SIGAA.
+About GIGGA: GIGGA is a simple software capable of storing student data, editing it and displaying it in a class with more than 50 students. GIGGA is inspired by the website called SIGAA.
 
 - [GIGGA](https://github.com/floro-neto/AP1/blob/main/GIGAA1.4.ALG)
 
