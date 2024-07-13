@@ -3,4 +3,4 @@
 
 #Aqui estão alguns codigos feitos usando Visualg:
 
-- [Code1](AP!/Visualg1)
+- [Code1](AP1/Visualg1)
