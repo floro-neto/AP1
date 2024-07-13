@@ -1,8 +1,8 @@
 ## Codigos feitos em AP1 usando Visualg 
 ## Some codes made in Visualg on Algorithms and Programming 1 class
 
-#Aqui estão alguns codigos feitos usando Visualg:
-#Sobre Visualg / About Visualg(A portuguese programing language):
+Aqui estão alguns codigos feitos usando Visualg:
+Sobre Visualg / About Visualg(A portuguese programing language):
 
 - [About Visualg](https://dicasdeprogramacao.com.br/download-visualg/)
 
